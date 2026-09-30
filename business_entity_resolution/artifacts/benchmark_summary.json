@@ -1,0 +1,30 @@
+{
+  "blocking": {
+    "duration_sec": 9.068996906280518,
+    "total_candidates": 4294,
+    "avg_candidates_per_s1": 42.94,
+    "true_matches_captured": 139,
+    "total_true_matches": 330,
+    "blocking_recall": 0.4212121212121212,
+    "throughput_s1_per_sec": 11.026577804955187
+  },
+  "features": {
+    "duration_sec": 7.301651954650879,
+    "matrix_shape": [
+      4294,
+      43
+    ],
+    "pairs_per_sec": 588.0860970461462,
+    "n_positives": 139,
+    "n_negatives": 4155
+  },
+  "model": {
+    "duration_sec": 79.71314764022827,
+    "best_model": "RandomForest",
+    "oof_f05": 0.08968609865470853,
+    "oof_precision": 0.19047619047619047,
+    "oof_recall": 0.02877697841726619,
+    "threshold": 0.5700000000000002
+  },
+  "validation_passed": true
+}
